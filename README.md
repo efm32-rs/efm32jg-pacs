@@ -2,21 +2,19 @@
 
 [![PACs](https://github.com/efm32-rs/efm32jg-pacs/actions/workflows/pacs.yml/badge.svg)](https://github.com/efm32-rs/efm32jg-pacs/actions/workflows/pacs.yml)
 
-This repository contains Peripheral Access Crates (PACs) for Silabs' EFM32 series of Cortex-M microcontrollers.
-
+This repository contains Peripheral Access Crates (PACs) for Silabs' EFM32JG series of Cortex-M microcontrollers.
 All these crates are automatically generated using [svd2rust](https://github.com/rust-embedded/svd2rust).
 
 Refer to the [CHANGELOG](CHANGELOG.md) to see what changed in the last releases.
 
 ## Crates
 
-Every EFM32JG chip has its own PAC, listed below:
+Every EFM32G chip has its own PAC, listed below:
 
-| Crate               | Docs                                                                                         | crates.io                                                                                                         | target               |
-|---------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------|
-| `efm32jg1b100-pac`  | [![docs.rs](https://docs.rs/efm32jg1b100-pac/badge.svg)](https://docs.rs/efm32jg1b100-pac)   | [![crates.io](https://img.shields.io/crates/d/efm32jg1b100-pac.svg)](https://crates.io/crates/efm32jg1b100-pac)   | `thumbv7m-none-eabi` |
- | `efm32jg1b200-pac`  | [![docs.rs](https://docs.rs/efm32jg1b200-pac/badge.svg)](https://docs.rs/efm32jg1b200-pac)   | [![crates.io](https://img.shields.io/crates/d/efm32jg1b200-pac.svg)](https://crates.io/crates/efm32jg1b200-pac)   | `thumbv7m-none-eabi` |
- | `efm32jg12b500-pac` | [![docs.rs](https://docs.rs/efm32jg12b500-pac/badge.svg)](https://docs.rs/efm32jg12b500-pac) | [![crates.io](https://img.shields.io/crates/d/efm32jg12b500-pac.svg)](https://crates.io/crates/efm32jg12b500-pac) | `thumbv7m-none-eabi` |
+| Crate           | Docs                                                                                 | crates.io                                                                                                 | Target               |
+|-----------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------|
+| `efm32jg12b-pac`| [![docs.rs](https://docs.rs/efm32jg12b-pac/badge.svg)](https://docs.rs/efm32jg12b-pac)| [![crates.io](https://img.shields.io/crates/d/efm32jg12b-pac)](https://crates.io/crates/efm32jg12b-pac)| `thumbv7m-none-eabi` |
+| `efm32jg1b-pac`| [![docs.rs](https://docs.rs/efm32jg1b-pac/badge.svg)](https://docs.rs/efm32jg1b-pac)| [![crates.io](https://img.shields.io/crates/d/efm32jg1b-pac)](https://crates.io/crates/efm32jg1b-pac)| `thumbv7m-none-eabi` |
 
 ## Device Reference Manuals from Silabs
 
